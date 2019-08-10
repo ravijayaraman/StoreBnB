@@ -8,7 +8,7 @@ target 'StoreBnB' do
   # Pods for StoreBnB
   #pod 'Alamofire'
   #pod 'SwiftyJSON'
-  pod 'GoogleMaps'
-  pod 'GooglePlaces'
+  pod 'GoogleMaps' #Pod for google maps copywrits from google using it just for this sample prototype
+  pod 'GooglePlaces' #Pod installed to use the google places API in the iOS application
   #pod 'SideMenu'
 end

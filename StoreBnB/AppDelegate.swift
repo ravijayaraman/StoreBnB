@@ -7,6 +7,8 @@
 //
 
 import UIKit
+
+//Imported google maps copywrite of Google. All right reserves for this cocoa pod
 import GoogleMaps
 import GooglePlaces
 
