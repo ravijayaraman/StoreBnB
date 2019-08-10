@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2C6E71304C26534C5218FC /* Pods_StoreBnB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A9B5D04F3D1BB3B12EB5E5 /* Pods_StoreBnB.framework */; };
+		772D076A22FEA2B100368289 /* CustomMarkerInfoViw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D076922FEA2B100368289 /* CustomMarkerInfoViw.swift */; };
+		772D076C22FEA2CB00368289 /* CustomMarkerInfoViw.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772D076B22FEA2CB00368289 /* CustomMarkerInfoViw.xib */; };
+		772D076E22FECAB700368289 /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D076D22FECAB700368289 /* LandingVC.swift */; };
+		772D077122FF073400368289 /* ListingTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D076F22FF073400368289 /* ListingTBC.swift */; };
+		772D077222FF073400368289 /* ListingTBC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772D077022FF073400368289 /* ListingTBC.xib */; };
+		772D077422FF234200368289 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D077322FF234200368289 /* CustomButtons.swift */; };
+		772D077622FF2A8000368289 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D077522FF2A8000368289 /* CustomTextField.swift */; };
+		772D077822FF5E0000368289 /* BookingSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D077722FF5E0000368289 /* BookingSuccessVC.swift */; };
+		772D077A22FF6E1900368289 /* MyListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D077922FF6E1900368289 /* MyListingVC.swift */; };
+		77E2F69522FE588E00EFD1C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E2F69422FE588E00EFD1C0 /* AppDelegate.swift */; };
+		77E2F69722FE588E00EFD1C0 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E2F69622FE588E00EFD1C0 /* WelcomeVC.swift */; };
+		77E2F69A22FE588E00EFD1C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E2F69822FE588E00EFD1C0 /* Main.storyboard */; };
+		77E2F69C22FE589000EFD1C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E2F69B22FE589000EFD1C0 /* Assets.xcassets */; };
+		77E2F69F22FE589000EFD1C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E2F69D22FE589000EFD1C0 /* LaunchScreen.storyboard */; };
+		77E2F6A722FE5DA400EFD1C0 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E2F6A622FE5DA400EFD1C0 /* DashboardVC.swift */; };
+		77E2F6A922FE5DC100EFD1C0 /* SpaceDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E2F6A822FE5DC100EFD1C0 /* SpaceDetailsVC.swift */; };
+		77E2F6AB22FE6A8600EFD1C0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E2F6AA22FE6A8600EFD1C0 /* Extension.swift */; };
+		77E2F6AD22FE6E4100EFD1C0 /* ListingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E2F6AC22FE6E4100EFD1C0 /* ListingVC.swift */; };
+		77E2F6AF22FE88ED00EFD1C0 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E2F6AE22FE88ED00EFD1C0 /* Strings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67524E123951E4AE32A1616E /* Pods-StoreBnB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoreBnB.release.xcconfig"; path = "Target Support Files/Pods-StoreBnB/Pods-StoreBnB.release.xcconfig"; sourceTree = "<group>"; };
+		772D076922FEA2B100368289 /* CustomMarkerInfoViw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerInfoViw.swift; sourceTree = "<group>"; };
+		772D076B22FEA2CB00368289 /* CustomMarkerInfoViw.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMarkerInfoViw.xib; sourceTree = "<group>"; };
+		772D076D22FECAB700368289 /* LandingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		772D076F22FF073400368289 /* ListingTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTBC.swift; sourceTree = "<group>"; };
+		772D077022FF073400368289 /* ListingTBC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListingTBC.xib; sourceTree = "<group>"; };
+		772D077322FF234200368289 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		772D077522FF2A8000368289 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		772D077722FF5E0000368289 /* BookingSuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingSuccessVC.swift; sourceTree = "<group>"; };
+		772D077922FF6E1900368289 /* MyListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListingVC.swift; sourceTree = "<group>"; };
+		77E2F69122FE588E00EFD1C0 /* StoreBnB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreBnB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E2F69422FE588E00EFD1C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77E2F69622FE588E00EFD1C0 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		77E2F69922FE588E00EFD1C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77E2F69B22FE589000EFD1C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77E2F69E22FE589000EFD1C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77E2F6A022FE589000EFD1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E2F6A622FE5DA400EFD1C0 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		77E2F6A822FE5DC100EFD1C0 /* SpaceDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceDetailsVC.swift; sourceTree = "<group>"; };
+		77E2F6AA22FE6A8600EFD1C0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		77E2F6AC22FE6E4100EFD1C0 /* ListingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingVC.swift; sourceTree = "<group>"; };
+		77E2F6AE22FE88ED00EFD1C0 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		91E84A152D19590A97569EE2 /* Pods-StoreBnB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoreBnB.debug.xcconfig"; path = "Target Support Files/Pods-StoreBnB/Pods-StoreBnB.debug.xcconfig"; sourceTree = "<group>"; };
+		C1A9B5D04F3D1BB3B12EB5E5 /* Pods_StoreBnB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoreBnB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E2F68E22FE588E00EFD1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2C6E71304C26534C5218FC /* Pods_StoreBnB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B45523BC21BF54D66A2AAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91E84A152D19590A97569EE2 /* Pods-StoreBnB.debug.xcconfig */,
+				67524E123951E4AE32A1616E /* Pods-StoreBnB.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		71BCC1329D8587717E628256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9B5D04F3D1BB3B12EB5E5 /* Pods_StoreBnB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77E2F68822FE588E00EFD1C0 = {
+			isa = PBXGroup;
+			children = (
+				77E2F69322FE588E00EFD1C0 /* StoreBnB */,
+				77E2F69222FE588E00EFD1C0 /* Products */,
+				19B45523BC21BF54D66A2AAF /* Pods */,
+				71BCC1329D8587717E628256 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77E2F69222FE588E00EFD1C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E2F69122FE588E00EFD1C0 /* StoreBnB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E2F69322FE588E00EFD1C0 /* StoreBnB */ = {
+			isa = PBXGroup;
+			children = (
+				77E2F69422FE588E00EFD1C0 /* AppDelegate.swift */,
+				77E2F69622FE588E00EFD1C0 /* WelcomeVC.swift */,
+				77E2F69822FE588E00EFD1C0 /* Main.storyboard */,
+				77E2F69B22FE589000EFD1C0 /* Assets.xcassets */,
+				77E2F69D22FE589000EFD1C0 /* LaunchScreen.storyboard */,
+				77E2F6A022FE589000EFD1C0 /* Info.plist */,
+				77E2F6A622FE5DA400EFD1C0 /* DashboardVC.swift */,
+				77E2F6A822FE5DC100EFD1C0 /* SpaceDetailsVC.swift */,
+				77E2F6AA22FE6A8600EFD1C0 /* Extension.swift */,
+				77E2F6AC22FE6E4100EFD1C0 /* ListingVC.swift */,
+				77E2F6AE22FE88ED00EFD1C0 /* Strings.swift */,
+				772D076922FEA2B100368289 /* CustomMarkerInfoViw.swift */,
+				772D076B22FEA2CB00368289 /* CustomMarkerInfoViw.xib */,
+				772D076D22FECAB700368289 /* LandingVC.swift */,
+				772D076F22FF073400368289 /* ListingTBC.swift */,
+				772D077022FF073400368289 /* ListingTBC.xib */,
+				772D077322FF234200368289 /* CustomButtons.swift */,
+				772D077522FF2A8000368289 /* CustomTextField.swift */,
+				772D077722FF5E0000368289 /* BookingSuccessVC.swift */,
+				772D077922FF6E1900368289 /* MyListingVC.swift */,
+			);
+			path = StoreBnB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E2F69022FE588E00EFD1C0 /* StoreBnB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E2F6A322FE589000EFD1C0 /* Build configuration list for PBXNativeTarget "StoreBnB" */;
+			buildPhases = (
+				3B8D3A8CCB7F1B816248C33C /* [CP] Check Pods Manifest.lock */,
+				77E2F68D22FE588E00EFD1C0 /* Sources */,
+				77E2F68E22FE588E00EFD1C0 /* Frameworks */,
+				77E2F68F22FE588E00EFD1C0 /* Resources */,
+				64E7FD8C159A15CB6D3A8548 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoreBnB;
+			productName = StoreBnB;
+			productReference = 77E2F69122FE588E00EFD1C0 /* StoreBnB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E2F68922FE588E00EFD1C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ravi Jayaraman";
+				TargetAttributes = {
+					77E2F69022FE588E00EFD1C0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 77E2F68C22FE588E00EFD1C0 /* Build configuration list for PBXProject "StoreBnB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77E2F68822FE588E00EFD1C0;
+			productRefGroup = 77E2F69222FE588E00EFD1C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E2F69022FE588E00EFD1C0 /* StoreBnB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E2F68F22FE588E00EFD1C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E2F69F22FE589000EFD1C0 /* LaunchScreen.storyboard in Resources */,
+				772D077222FF073400368289 /* ListingTBC.xib in Resources */,
+				77E2F69C22FE589000EFD1C0 /* Assets.xcassets in Resources */,
+				77E2F69A22FE588E00EFD1C0 /* Main.storyboard in Resources */,
+				772D076C22FEA2CB00368289 /* CustomMarkerInfoViw.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B8D3A8CCB7F1B816248C33C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoreBnB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E7FD8C159A15CB6D3A8548 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoreBnB/Pods-StoreBnB-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoreBnB/Pods-StoreBnB-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoreBnB/Pods-StoreBnB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E2F68D22FE588E00EFD1C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E2F69722FE588E00EFD1C0 /* WelcomeVC.swift in Sources */,
+				772D077422FF234200368289 /* CustomButtons.swift in Sources */,
+				772D076E22FECAB700368289 /* LandingVC.swift in Sources */,
+				772D077822FF5E0000368289 /* BookingSuccessVC.swift in Sources */,
+				77E2F6AB22FE6A8600EFD1C0 /* Extension.swift in Sources */,
+				772D077A22FF6E1900368289 /* MyListingVC.swift in Sources */,
+				77E2F6A722FE5DA400EFD1C0 /* DashboardVC.swift in Sources */,
+				772D077122FF073400368289 /* ListingTBC.swift in Sources */,
+				772D076A22FEA2B100368289 /* CustomMarkerInfoViw.swift in Sources */,
+				77E2F6AD22FE6E4100EFD1C0 /* ListingVC.swift in Sources */,
+				772D077622FF2A8000368289 /* CustomTextField.swift in Sources */,
+				77E2F6A922FE5DC100EFD1C0 /* SpaceDetailsVC.swift in Sources */,
+				77E2F69522FE588E00EFD1C0 /* AppDelegate.swift in Sources */,
+				77E2F6AF22FE88ED00EFD1C0 /* Strings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77E2F69822FE588E00EFD1C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E2F69922FE588E00EFD1C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77E2F69D22FE589000EFD1C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E2F69E22FE589000EFD1C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E2F6A122FE589000EFD1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77E2F6A222FE589000EFD1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77E2F6A422FE589000EFD1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E84A152D19590A97569EE2 /* Pods-StoreBnB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = StoreBnB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ravi.StoreBnB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77E2F6A522FE589000EFD1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67524E123951E4AE32A1616E /* Pods-StoreBnB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = StoreBnB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ravi.StoreBnB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E2F68C22FE588E00EFD1C0 /* Build configuration list for PBXProject "StoreBnB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E2F6A122FE589000EFD1C0 /* Debug */,
+				77E2F6A222FE589000EFD1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E2F6A322FE589000EFD1C0 /* Build configuration list for PBXNativeTarget "StoreBnB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E2F6A422FE589000EFD1C0 /* Debug */,
+				77E2F6A522FE589000EFD1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77E2F68922FE588E00EFD1C0 /* Project object */;
+}

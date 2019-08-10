@@ -1,0 +1,6 @@
+framework module Pods_StoreBnB {
+  umbrella header "Pods-StoreBnB-umbrella.h"
+
+  export *
+  module * { export * }
+}
