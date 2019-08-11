@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,11 +23,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SurfSpaceLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ltl-rh-baR">
+                                <rect key="frame" x="101" y="214" width="212" height="212.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ltl-rh-baR" secondAttribute="height" multiplier="1:1" id="oBV-YN-fm9"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.77254901960784317" green="0.93333333333333335" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ltl-rh-baR" firstAttribute="width" secondItem="vXo-vr-oBn" secondAttribute="width" multiplier="0.6" id="RxH-3L-ba1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vXo-vr-oBn" secondAttribute="trailing" constant="30" id="Yqo-Hg-1Oi"/>
+                            <constraint firstItem="vXo-vr-oBn" firstAttribute="top" secondItem="ltl-rh-baR" secondAttribute="bottom" constant="10" id="awA-Nu-k11"/>
                             <constraint firstItem="vXo-vr-oBn" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="og1-Vw-d8g"/>
+                            <constraint firstItem="ltl-rh-baR" firstAttribute="centerX" secondItem="vXo-vr-oBn" secondAttribute="centerX" id="rZP-rd-XYy"/>
                             <constraint firstItem="vXo-vr-oBn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="uBl-b5-v3v"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -39,4 +48,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SurfSpaceLogo" width="533.33331298828125" height="533.33331298828125"/>
+    </resources>
 </document>

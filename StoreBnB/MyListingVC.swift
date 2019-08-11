@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class MyListingVC: UIViewController {
 
     @IBOutlet weak var colViwMyListing: UICollectionView!
@@ -20,9 +21,9 @@ class MyListingVC: UIViewController {
         colViwMyListing.dataSource = self
         self.view.appThemeColor(.skyBlue)
         colViwMyListing.backgroundColor = .clear
-        colViwMyListing.register(UINib(nibName: "ListingTBC", bundle: nil), forCellWithReuseIdentifier: "ListingTBC")
+        colViwMyListing.register(UINib(nibName: ViewControllers.shared.ListingTBC, bundle: nil), forCellWithReuseIdentifier: ViewControllers.shared.ListingTBC)
         
-        self.title = "My Listing"
+        self.title = ScreenTitle.MyListing.rawValue
     }
 }
 
