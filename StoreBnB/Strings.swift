@@ -32,6 +32,8 @@ struct ViewControllers {
     
     let SpaceDetailsVC = "SpaceDetailsVC"
     let ListingTBC = "ListingTBC"
+    let ListingVC = "ListingVC"
+    let DashboardVC = "DashboardVC"
 }
 
 //This enum is for the titles used in the application
@@ -39,4 +41,14 @@ enum ScreenTitle: String {
     
     case MyListing = "My Listing"
     case Confirmed = "Confirmed"
+}
+
+//Structure for all the text used in the app
+struct Text {
+    
+    //Shared instance
+    static let shared = Text()
+    
+    let IHaveSpace = "I HAVE SPARE SPACE\nI WANT TO RENT OUT."
+    let IDontHaveSpace = "I´M LOOKING FOR SPARE SPACE."
 }

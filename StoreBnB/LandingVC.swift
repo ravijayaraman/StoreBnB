@@ -38,7 +38,7 @@ class LandingVC: UIViewController {
     func setupButtons() {
         btnVendor.applyBorder(.round)
         btnVendor.appThemeColor(.gray)
-        btnVendor.setTitle("I HAVE SPARE SPACE\nI WANT TO RENT OUT.", for: .normal)
+        btnVendor.setTitle(Text.shared.IHaveSpace, for: .normal)
         btnVendor.layer.borderWidth = 6
         btnVendor.layer.borderColor = ThemeColors.shared.themeDarkNavyBlue().cgColor
         btnVendor.setTitleColor(ThemeColors.shared.themeDarkNavyBlue(), for: .normal)
@@ -46,7 +46,7 @@ class LandingVC: UIViewController {
         
         btnCustomer.applyBorder(.round)
         btnCustomer.appThemeColor(.gray)
-        btnCustomer.setTitle("I´M LOOKING FOR SPARE SPACE.", for: .normal)
+        btnCustomer.setTitle(Text.shared.IDontHaveSpace, for: .normal)
         btnCustomer.layer.borderWidth = 6
         btnCustomer.layer.borderColor = ThemeColors.shared.themeDarkNavyBlue().cgColor
         btnCustomer.setTitleColor(ThemeColors.shared.themeDarkNavyBlue(), for: .normal)
@@ -57,13 +57,13 @@ class LandingVC: UIViewController {
     
     @IBAction func btnCustomerTapped(_ sender: UIButton) {
         let sbMain = UIStoryboard(name: "Main", bundle: nil)
-        let vcDashboard = sbMain.instantiateViewController(withIdentifier: "DashboardVC") as! DashboardVC
+        let vcDashboard = sbMain.instantiateViewController(withIdentifier: ViewControllers.shared.DashboardVC) as! DashboardVC
         self.navigationController?.pushViewController(vcDashboard, animated: true)
     }
     
     @IBAction func btnVendorTapped(_ sender: UIButton) {
         let sbMain = UIStoryboard(name: "Main", bundle: nil)
-        let vcDashboard = sbMain.instantiateViewController(withIdentifier: "ListingVC") as! ListingVC
+        let vcDashboard = sbMain.instantiateViewController(withIdentifier: ViewControllers.shared.ListingVC) as! ListingVC
         self.navigationController?.pushViewController(vcDashboard, animated: true)
     }
 }
